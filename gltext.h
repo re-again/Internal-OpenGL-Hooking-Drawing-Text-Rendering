@@ -5,7 +5,7 @@
 #include<gl/GL.h>
 #include "mem.h"
 
-struct vec3
+struct vec3 
 {
 	float x, y, z;
 };
