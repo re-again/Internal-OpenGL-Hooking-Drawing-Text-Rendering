@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{c19209be-dcea-4db4-993b-6674af092448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{ed9a5f11-171a-4fe5-9135-1c4dc03a1399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Draw">
+      <UniqueIdentifier>{39fadc80-567c-489f-b269-4dedb520c1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Text">
+      <UniqueIdentifier>{91e38e93-6aa3-4621-9de8-f20ca8beca02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{a32ed4bf-830e-4e21-b723-7d1065d26ee3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="glDraw.h">
+      <Filter>OpenGL Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="gltext.h">
+      <Filter>OpenGL Text</Filter>
+    </ClInclude>
+    <ClInclude Include="hack.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="glDraw.cpp">
+      <Filter>OpenGL Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="gltext.cpp">
+      <Filter>OpenGL Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
